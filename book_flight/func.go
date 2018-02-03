@@ -22,6 +22,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	str := "Reservation " + r.ID + ": " + r.Email + " is going to " + r.Destination + " from " + r.DepartureDate + " to " + r.ReturnDate
+	str := "Booking flight for reservation " + r.ID + " departing " + r.DepartureDate + " and returning " + r.ReturnDate
 	os.Stderr.WriteString(str)
 }

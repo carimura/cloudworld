@@ -1,4 +1,4 @@
-version: 0.0.90
+version: 0.0.91
 runtime: java
 cmd: com.example.fn.FlowFunction::handleRequest
 build_image: fnproject/fn-java-fdk-build:jdk9-1.0.56
