@@ -1,0 +1,96 @@
+box:
+  id: alpine
+
+
+test-book-flight:
+  steps:
+    - script:
+      code: |
+          echo 'Testing book flight func...'; sleep 3
+
+push-book-flight:
+  steps:
+    - script:
+      code: |
+          echo 'Pushing book flight func...'; sleep 3
+
+deploy-book-flight:
+  steps:
+    - script:
+      code: |
+          echo 'Deploying book flight func...'; sleep 3
+
+test-book-hotel:
+  steps:
+    - script:
+      code: |
+          echo 'Testing book hotel func...'; sleep 3
+
+push-book-hotel:
+  steps:
+    - script:
+      code: |
+          echo 'Pushing book hotel func...'; sleep 3
+
+deploy-book-hotel:
+  steps:
+    - script:
+      code: |
+          echo 'Deploying book hotel func...'; sleep 3
+
+test-get-reservations:
+  steps:
+    - script:
+      code: |
+          echo 'Testing get reservations func...'; sleep 3
+
+push-get-reservations:
+  steps:
+    - script:
+      code: |
+          echo 'Pushing get reservations func...'; sleep 3
+
+deploy-get-reservations:
+  steps:
+    - script:
+      code: |
+          echo 'Deploying get reservations func...'; sleep 3
+
+test-process-reservations:
+  steps:
+    - script:
+      code: |
+          echo 'Testing process reservations func...'; sleep 3
+
+push-process-reservations:
+  steps:
+    - script:
+      code: |
+          echo 'Pushing process reservations func...'; sleep 3
+
+deploy-process-reservations:
+  steps:
+    - script:
+      code: |
+          echo 'Deploying process reservations func...'; sleep 3
+
+test-flow:
+  steps:
+    - script:
+      code: |
+          echo 'Testing flow func...'; sleep 3
+
+push-flow:
+  steps:
+    - script:
+      code: |
+          echo 'Pushing flow func...'; sleep 3
+
+deploy-flow:
+  steps:
+    - script:
+      code: |
+          echo 'Deploying flow func...'; sleep 3
+
+
+
