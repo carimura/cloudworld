@@ -1,96 +1,101 @@
 box:
   id: alpine
 
+build:
+  steps:
+    - script:
+      code: |
+          echo 'Starting build'; sleep 1
 
 test-book-flight:
   steps:
     - script:
       code: |
-          echo 'Testing book flight func...'; sleep 3
+          echo 'Testing book flight func...'; sleep 2
 
 push-book-flight:
   steps:
     - script:
       code: |
-          echo 'Pushing book flight func...'; sleep 3
+          echo 'Pushing book flight func...'; sleep 2
 
 deploy-book-flight:
   steps:
     - script:
       code: |
-          echo 'Deploying book flight func...'; sleep 3
+          echo 'Deploying book flight func...'; sleep 2
 
 test-book-hotel:
   steps:
     - script:
       code: |
-          echo 'Testing book hotel func...'; sleep 3
+          echo 'Testing book hotel func...'; sleep 2
 
 push-book-hotel:
   steps:
     - script:
       code: |
-          echo 'Pushing book hotel func...'; sleep 3
+          echo 'Pushing book hotel func...'; sleep 2
 
 deploy-book-hotel:
   steps:
     - script:
       code: |
-          echo 'Deploying book hotel func...'; sleep 3
+          echo 'Deploying book hotel func...'; sleep 2
 
 test-get-reservations:
   steps:
     - script:
       code: |
-          echo 'Testing get reservations func...'; sleep 3
+          echo 'Testing get reservations func...'; sleep 2
 
 push-get-reservations:
   steps:
     - script:
       code: |
-          echo 'Pushing get reservations func...'; sleep 3
+          echo 'Pushing get reservations func...'; sleep 2
 
 deploy-get-reservations:
   steps:
     - script:
       code: |
-          echo 'Deploying get reservations func...'; sleep 3
+          echo 'Deploying get reservations func...'; sleep 2
 
 test-process-reservations:
   steps:
     - script:
       code: |
-          echo 'Testing process reservations func...'; sleep 3
+          echo 'Testing process reservations func...'; sleep 2
 
 push-process-reservations:
   steps:
     - script:
       code: |
-          echo 'Pushing process reservations func...'; sleep 3
+          echo 'Pushing process reservations func...'; sleep 2
 
 deploy-process-reservations:
   steps:
     - script:
       code: |
-          echo 'Deploying process reservations func...'; sleep 3
+          echo 'Deploying process reservations func...'; sleep 2
 
 test-flow:
   steps:
     - script:
       code: |
-          echo 'Testing flow func...'; sleep 3
+          echo 'Testing flow func...'; sleep 2
 
 push-flow:
   steps:
     - script:
       code: |
-          echo 'Pushing flow func...'; sleep 3
+          echo 'Pushing flow func...'; sleep 2
 
 deploy-flow:
   steps:
     - script:
       code: |
-          echo 'Deploying flow func...'; sleep 3
+          echo 'Deploying flow func...'; sleep 2
 
 
 
